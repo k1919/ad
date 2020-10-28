@@ -1,5 +1,5 @@
 <?php
-namespace song;
+namespace kang;
 
 use epii\admin\center\libs\AddonsApp;
 
@@ -9,10 +9,10 @@ class app extends AddonsApp
     public function install(): bool
     {
         // TODO: Implement install() method.
-        $pid = $this->addMenu(0,"宋扬测试导航","");
-        $this->addMenu( $pid,"导航1","?app=adList@index&__addons=kang/ad");
-        $this->addMenu( $pid,"导航2","?app=adGroup@index&__addons=kang/ad");
-       // $this->execSqlFile(__)
+        $pid = $this->addMenu(0,"广告位管理","");
+        $this->addMenu( $pid,"广告位列表","?app=adList@index&__addons=kang/ad");
+        $this->addMenu( $pid,"广告位分组","?app=adGroup@index&__addons=kang/ad");
+        $this->execSqlFile(__DIR__.'/ad.sql');
         return  true;
     }
 
