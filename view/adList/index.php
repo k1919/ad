@@ -48,10 +48,10 @@
 
 <div class="content">
     <div class="card-body table-responsive" style="padding-top: 0px">
-        <a class="btn   btn-outline-primary btn-table-tool btn-dialog" href="?app=adList@add_edit&__addons=kang/ad" data-area="60%,90%" title="新增广告位"><i class="fa fa-plus"></i>新增广告位</a>
+        <a class="btn   btn-outline-primary btn-table-tool btn-dialog" href="?app=adList@add_edit&__addons=kjx/ad" data-area="60%,90%" title="新增广告位"><i class="fa fa-plus"></i>新增广告位</a>
     </div>
     <div class="card-body table-responsive" style="padding-top: 0px">
-        <table data-table="1" data-url="?app=adList@ajax_data&__addons=kang/ad" id="table1" class="table table-hover">
+        <table data-table="1" data-url="?app=adList@ajax_data&__addons=kjx/ad" id="table1" class="table table-hover">
             <thead>
             <tr>
 
@@ -64,9 +64,9 @@
                 <th data-field="status" data-formatter="epiiFormatter.switch">当前状态</th>
                 <th data-formatter="epiiFormatter.btns"
                     data-btns="edit,del"
-                    data-edit-url="?app=adList@add_edit&id={id}&__addons=kang/ad"
+                    data-edit-url="?app=adList@add_edit&id={id}&__addons=kjx/ad"
                     data-edit-title="编辑：{name}"
-                    data-del-url="?app=adList@del&id={id}&__addons=kang/ad"
+                    data-del-url="?app=adList@del&id={id}&__addons=kjx/ad"
                     data-del-title="删除：{name}"
                     data-area="60%,90%"
                 >操作

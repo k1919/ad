@@ -1,5 +1,5 @@
 
-    <form role="form"  class="epii" method="post" data-form="1" action="?app=adGroup@add_edit&__addons=kang/ad"> <!--data-form="1"-->
+    <form role="form"  class="epii" method="post" data-form="1" action="?app=adGroup@add_edit&__addons=kjx/ad"> <!--data-form="1"-->
         <input type="hidden" name="id" value="{$info.id?}">
 
         <div class="form-group">

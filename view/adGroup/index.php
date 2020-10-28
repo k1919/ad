@@ -32,10 +32,10 @@
 
 <div class="content">
     <div class="card-body table-responsive" style="padding-top: 0px">
-        <a class="btn   btn-outline-primary btn-table-tool btn-dialog" href="?app=adGroup@add_edit&__addons=kang/ad" data-area="30%,50%" title="新增分组"><i class="fa fa-plus"></i>新增</a>
+        <a class="btn   btn-outline-primary btn-table-tool btn-dialog" href="?app=adGroup@add_edit&__addons=kjx/ad" data-area="30%,50%" title="新增分组"><i class="fa fa-plus"></i>新增</a>
     </div>
     <div class="card-body table-responsive" style="padding-top: 0px">
-        <table data-table="1" data-url="?app=adGroup@ajax_data&__addons=kang/ad" id="table1" class="table table-hover">
+        <table data-table="1" data-url="?app=adGroup@ajax_data&__addons=kjx/ad" id="table1" class="table table-hover">
             <thead>
             <tr>
 
@@ -44,9 +44,9 @@
                 <th data-field="updatetime" data-formatter="epiiFormatter">更新时间</th>
                 <th data-formatter="epiiFormatter.btns"
                     data-btns="edit,del"
-                    data-edit-url="?app=adGroup@add_edit&id={id}&__addons=kang/ad"
+                    data-edit-url="?app=adGroup@add_edit&id={id}&__addons=kjx/ad"
                     data-edit-title="编辑：{name}"
-                    data-del-url="?app=adGroup@del&id={id}&__addons=kang/ad"
+                    data-del-url="?app=adGroup@del&id={id}&__addons=kjx/ad"
                     data-del-title="删除：{name}"
                     data-area="30%,50%"
                 >操作

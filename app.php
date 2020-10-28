@@ -12,8 +12,8 @@ class app extends AddonsApp
     {
         // TODO: Implement install() method.
         $pid = $this->addMenu(0,"广告位管理","");
-        $this->addMenu( $pid,"广告位列表","?app=adList@index&__addons=kang/ad");
-        $this->addMenu( $pid,"广告位分组","?app=adGroup@index&__addons=kang/ad");
+        $this->addMenu( $pid,"广告位列表","?app=adList@index&__addons=kjx/ad");
+        $this->addMenu( $pid,"广告位分组","?app=adGroup@index&__addons=kjx/ad");
         $this->execSqlFile(__DIR__.'/ad.sql');
         return  true;
     }
