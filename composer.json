@@ -1,6 +1,8 @@
 {
     "name": "kjx/ad",
     "description": "万能广告位模块",
+    "type": "library",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "k1919",

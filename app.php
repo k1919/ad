@@ -3,6 +3,8 @@ namespace kang;
 
 use epii\admin\center\libs\AddonsApp;
 
+//https://packagist.org/api/github?username=k1919
+//ijijb-AnrIZVtKgEkVw5
 class app extends AddonsApp
 {
     //http://test.testepii.com/?app=test1&__addons=song/test
