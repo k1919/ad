@@ -1,0 +1,24 @@
+{
+    "name": "kang/ad",
+    "description": "万能广告位模块",
+    "authors": [
+        {
+            "name": "kang",
+            "email": "jiaxing1919@163.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "kang\\":"./"
+        }
+    },
+    "extra": {
+        "epii_admin_addons":{
+            "app":"kang\\app",
+            "base_name_space":["kang\\app"],
+            "title":"万能广告位模块",
+            "version": "0.0.1"
+        }
+    }
+}
