@@ -11,15 +11,16 @@ class app extends AddonsApp
     public function install(): bool
     {
         // TODO: Implement install() method.
-        $pid = $this->addMenu(0,"广告位管理","");
-        $this->addMenu( $pid,"广告位列表","?app=adList@index&__addons=kjx/ad");
-        $this->addMenu( $pid,"广告位分组","?app=adGroup@index&__addons=kjx/ad");
-        $this->execSqlFile(__DIR__.'/ad.sql');
+        $pid = $this->addMenu(0,"广告位管理","",'fa-cc-discover');
+        $this->addMenu( $pid,"广告位列表","?app=adList@index&__addons=kjx/ad",'fa-image');
+        $this->addMenu( $pid,"广告位分组","?app=adGroup@index&__addons=kjx/ad",'fa-align-right');
+        $this->execSqlFile(__DIR__.'/ad.sql','epii_');
         return  true;
     }
 
     public function update($new_version, $old_version): bool
     {
+
         // TODO: Implement update() method.
         return  true;
     }
