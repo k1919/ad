@@ -40,4 +40,6 @@ class ad_group
         return self::getTable()->where($where)->delete();
     }
 
+
+
 }

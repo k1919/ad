@@ -39,5 +39,20 @@ class ad_list
     public  static  function  del($where){
         return self::getTable()->where($where)->delete();
     }
+    /*
+     * @param  group_id 组ID
+     * @param  where 条件  默认当前状态启用
+     * @param  order  排序值  默认从小到大排序
+     * @param limit  默认限制20条
+     * */
+    public  static  function  getLists($group_id,$where=[['status','EQ',1]],$order='sort ASC',$limit=20){
+                $where[]=['group_id','EQ',$group_id];
+       return     self::getTable()->where($where)->order($order)->limit($limit)->select();
+    }
+
+    public  static  function  getInfoById($id){
+        return self::info([['id','EQ',$id]]);
+    }
+
 
 }
