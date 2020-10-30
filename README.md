@@ -1,7 +1,6 @@
 查询广告列表数据
 ===============================
-```
-@Override
+```ruby
      use kang\model\ad_list;
 
 
@@ -14,13 +13,12 @@
      getLists($group_id,$where,$order,$limit)
      
      例子:   ad_list::getLists(1);
-```  
 
 
+```
 查询某一条数据
 ===============================
-```
-@Override
+```ruby
      use kang\model\ad_list;
 
 
