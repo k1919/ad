@@ -68,7 +68,7 @@
     </form>
     <script>
         function upload_success() {
-            var src=$('.epii-upload-file-icon').attr('src');
+            var src=$('.epii-upload-file-icon-img').attr('src');
             $('input[name="img_url_show"]').val(src)
         }
 
